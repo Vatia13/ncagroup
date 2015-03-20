@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BPGExtraSquareMtavruliRegular';
+    src: url('bpg_extrasquare_mtavruli.eot');
+    src: url('bpg_extrasquare_mtavruli.eot') format('embedded-opentype'),
+         url('bpg_extrasquare_mtavruli.woff2') format('woff2'),
+         url('bpg_extrasquare_mtavruli.woff') format('woff'),
+         url('bpg_extrasquare_mtavruli.ttf') format('truetype'),
+         url('bpg_extrasquare_mtavruli.svg#BPGExtraSquareMtavruliRegular') format('svg');
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'BPGExtraSquareMtavruliRegular';
+    src: url('../fonts/extrasquare/bpg_extrasquare_mtavruli.eot');
+    src: url('../fonts/extrasquare/bpg_extrasquare_mtavruli.eot') format('embedded-opentype'),
+         url('../fonts/extrasquare/bpg_extrasquare_mtavruli.woff2') format('woff2'),
+         url('../fonts/extrasquare/bpg_extrasquare_mtavruli.woff') format('woff'),
+         url('../fonts/extrasquare/bpg_extrasquare_mtavruli.ttf') format('truetype'),
+         url('../fonts/extrasquare/bpg_extrasquare_mtavruli.svg#BPGExtraSquareMtavruliRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'BPGMrgvlovani2010Regular';
+    src: url('../fonts/mrgvlovani/bpg_mrgvlovani_2010.eot');
+    src: url('../fonts/mrgvlovani/bpg_mrgvlovani_2010.eot') format('embedded-opentype'),
+    url('../fonts/mrgvlovani/bpg_mrgvlovani_2010.woff2') format('woff2'),
+    url('../fonts/mrgvlovani/bpg_mrgvlovani_2010.woff') format('woff'),
+    url('../fonts/mrgvlovani/bpg_mrgvlovani_2010.ttf') format('truetype'),
+    url('../fonts/mrgvlovani/bpg_mrgvlovani_2010.svg#BPGMrgvlovani2010Regular') format('svg');
+}
