@@ -67,7 +67,7 @@
     border-radius:8px;
     -moz-border-radius:8px;
     -webkit-border-radius:8px;
-    margin-top:20px;
+    margin-top:15px;
 }
 
 .currency-converter h4{
@@ -79,6 +79,10 @@
 .currency-amount{
     margin-top:10px;
     position:relative;
+}
+.currency-amount div{
+    color:#009fe0;
+    font-size:18px;
 }
 .currency-amount input{
     height:20px;
@@ -181,4 +185,112 @@
     margin:0 150px;
     float:left;
     cursor:pointer;
+}
+
+
+/* TABS */
+
+
+section ul {
+    position:relative;
+    float: left;
+    border-radius: 7px;
+    border:1px solid #e7e7e7;
+    padding: 15px;
+    background-color: #FFF;
+    margin:50px 0 10px 0;
+    width:96.5%;
+}
+section li {
+    float: left;
+    background-color: #FFF;
+    padding: 5px 19px;
+    margin: 5px;
+    color: black;
+    border:1px solid #e7e7e7;
+    list-style: none;
+    position:relative;
+    bottom:57px;
+    border-top-left-radius: 7px;
+    -moz-border-top-left-radius: 7px;
+    -webkit-border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    -moz-border-top-right-radius: 7px;
+    -webkit-border-top-right-radius: 7px;
+}
+section li:hover, li:hover a {
+    background-color: #009fe0;
+    color:white;
+}
+section li a {
+    text-decoration: none;
+    color:#009fe0;
+    font-size: 21px;
+}
+
+section .active {
+    border-bottom:none;
+}
+
+
+/* END TABS */
+
+
+/* CALCULATORS */
+
+.calculator-one{
+   position:relative;
+   margin-top:-40px;
+    float:left;
+    color:#464646;
+}
+.calculator-one .one-left{
+    position:relative;
+    float:left;
+    margin-right:20px;
+}
+.calculator-one .one-right{
+    position:relative;
+    float:left;
+}
+.calculator-text{
+    border:1px solid #e7e7e7;
+    color:#464646;
+    border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    padding:12px 15px;
+    outline:none;
+}
+.calculator-select{
+    border:1px solid #e7e7e7;
+    border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    position:relative;
+    height:40px;
+    padding:5px 25px 5px 5px;
+    background-image:url('../images/select.png');
+    background-repeat:no-repeat;
+    background-position:95% 14px;
+    overflow:hidden;
+    outline:none;
+}
+.calculator-one table{
+    border:1px solid #e7e7e7;
+    padding:11px;
+    border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+}
+.calculator-one table td{
+    border:1px solid #e7e7e7;
+}
+select::-ms-expand {	display: none; }
+
+/* For Webkit based browsers Firefox version 29 and less, Google Chrome, Apple Safari */
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }

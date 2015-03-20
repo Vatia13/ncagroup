@@ -84,8 +84,28 @@
          </div>
          <div class="slider-shadow"></div>
          <!-- /Quake Image Slider -->
-
+         <!-- GET MODULES -->
+         <section>
+             <ul ng-init="tab = 1">
+                 <li ng-class="{active:tab===1}">
+                     <a href ng-click="tab = 1">calculator 1</a>
+                 </li>
+                 <li ng-class="{active:tab===2}">
+                     <a href ng-click="tab = 2">calculator 2</a>
+                 </li>
+                 <li ng-class="{active:tab===3}">
+                     <a href ng-click="tab = 3">calculator 3</a>
+                 </li>
+                 <div class="fix"></div>
+                 <div ng-show="tab === 1"> <?get_module('cal1');?> </div>
+                 <div ng-show="tab === 2"> calc2 </div>
+                 <div ng-show="tab === 3"> calc3 </div>
+             </ul>
+         </section>
+         <div class="fix"></div>
+         <?//get_module('cal1');?>
          <?get_module('currency');?>
+         <!-- END MODULES -->
      </div>
 
      <!-- FOOTER -->
